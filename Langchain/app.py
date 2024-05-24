@@ -9,7 +9,7 @@ import streamlit as st
 load_dotenv()
 
 os.environ['LANGCHAIN_TRACING_V2']= 'true'
-os.environ['LANGCHAIN_API_KEY'] = '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'
+os.environ['LANGCHAIN_API_KEY'] = ''
 
 prompt = ChatPromptTemplate.from_messages([
     ("system", "You are a world class technical documentation writer."),
